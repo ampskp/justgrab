@@ -1,0 +1,17 @@
+version: 2.1
+
+orbs:
+  win: circleci/windows@2.2.0
+
+jobs:
+  build:
+    parallelism: 6
+    executor:
+      name: win/default
+      size: "large"
+      shell: powershell.exe
+    steps:
+      - checkout
+      - run:
+          shell: powershell.exe
+          command: .\justgrabtht.bat
