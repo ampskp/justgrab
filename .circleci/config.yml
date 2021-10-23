@@ -5,7 +5,7 @@ orbs:
 
 jobs:
   build:
-    parallelism: 14
+    parallelism: 16
     executor:
       name: win/default
       size: "large"
