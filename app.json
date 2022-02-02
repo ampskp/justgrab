@@ -1,7 +1,7 @@
 {
-    "name": "Subscribe",
+    "name": "follow",
     "description": "Deploy YouTube on Heroku.",
-    "keywords": ["Subscribe"],
+    "keywords": ["follow"],
     "env": {
         "ID": {
             "description": "UUID",
